@@ -1,0 +1,21 @@
+.color-nav{
+    background-color: #1A1A1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+}
+
+.dropcustom{
+    color: #950740;
+    font-weight: bold;
+    width: 50px;
+}
+
+.nav-loged{
+    background-color: #1A1A1D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Righteous', cursive;
+}

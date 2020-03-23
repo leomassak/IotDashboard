@@ -1,0 +1,65 @@
+.addbutton-form{
+    width: 500px;
+    margin: 0px auto 0px auto;
+    background-color: #1A1A1D;
+    border-radius: 5px;
+    color: #950740;
+    /* top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5px; */
+    font-family: 'Righteous', cursive;
+}
+
+.error-alert{
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.addbutton-form p{
+    font-weight: bold;
+    margin: 0px;
+    font-size: 15pt;
+    color: #950740;
+}
+
+.addbutton-form input{
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 35px;
+    width: 450px;
+    border: none;
+    
+}
+
+#botao{
+    animation: move 500ms;
+}
+
+#link{
+    animation: move 500ms;
+    animation-delay: 150ms;
+    animation-fill-mode: backwards;
+}
+
+#addbutton-submit{
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background: #950740;
+    border: none;
+    transition: all 0.2s;
+    animation: move 500ms;
+    animation-delay: 250ms;
+    animation-fill-mode: backwards;
+}
+
+#addbutton-submit:hover{
+    opacity: 0.7;
+}
